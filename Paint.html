@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+	 <title>Paint</title>
+	 <link rel="stylesheet" href="Paint.css">
+	 <script src="Paint.js" defer></script>
+	 </head>
+	 <body>
+	 <body bgcolor="white">
+	  
+	
+    
+    
+	
+	<table  align="left" bgcolor="black"  width="200" height="632"  border="24" cellspacing="0" id="table" style="position:absolute; top:40px; left:70px;"  >
+   <tr align="center">
+   <td style="border: 1px solid black;"><input type="button" value="Очистить всё" name="def" OnClick="def();"  id="default"></td>                          
+    </tr>
+   <tr align="center">              
+   <td style="border: 1px solid black;"><input type="button" OnClick="draw();" id="kist"></td>
+   <td style="border: 1px solid black;"><input type="button" OnClick="drawCircle();" id="drawCircle";></td>
+   </tr>
+   <tr  align="center">  
+   <td style="border: 1px solid black;"> <input type="button" OnClick="eraser();" id="delete"></td>
+   <td style="border: 1px solid black;"><input type="button" OnClick="drawEllips();" id="drawEllips";></td>
+   </tr>
+  <tr align="center">
+  <td style="border: 1px solid black;"><input type="button" OnClick="changeMode_stroke();" id="changeMode_stroke";>
+    <input type="button" OnClick="changeMode_fill();" id="changeMode_fill";></td>
+  <td style="border: 1px solid black;"><input type="button" OnClick="drawSquare();" id="drawSquare";></td>
+  </tr>
+  <tr align="center">
+  <td style="border: 1px solid black;"><input type="color"  id="color"></td>
+  <td style="border: 1px solid black;"><input type="button" OnClick="drawRect();" id="drawRect";> <br><input type="button" OnClick="linedraw();" id="lindr";></br></td>
+  </tr>
+<tr align="center"><td style="border: 1px solid black;"><input type="button" OnClick="pipette();"  id="pipette"></td>
+<td style="border: 1px solid black;"><input type="button"  OnClick="filling();"  id="filling"></td>
+</tr>
+<tr align="center"><td style="border: 1px solid black;"><input type="button" value="Сохранить" name="save" OnClick="saveImage();" id="save"></td></tr>
+</table>
+    
+	 
+	<input type="range" min="3" max="60"  value="12" id="lineWidth" style="position:absolute; top: 648px; left:268px; >
+  <div align="center">
+	<canvas id="c1" width="900" height="600" style="position:absolute; top:40px; left:270px;" ></canvas>
+
+	
+	 </body>
+	 </html>	

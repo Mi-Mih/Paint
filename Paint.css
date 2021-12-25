@@ -1,0 +1,113 @@
+
+#c1 {
+	width: 900px;
+	height: 600px;
+	border: 5px solid black;
+   margin: 0px;
+   background-image: url(holst.jpg);
+   
+}
+
+#delete{
+	width: 44px;
+	height: 40px;
+     background-image: url(eraser.jpg)
+}
+
+#kist{
+	width:44px;
+	height:40px;
+	background-image: url(kist.jpg)
+}
+
+#color{
+	width:88px;
+   height:80px;
+}
+
+#default{
+	width:96px;
+	height:40px;
+}
+#lindr{
+   width:44px;
+   height:40px;
+   background-image: url(Linia.jpg)
+}
+
+#save{
+	width:96px;
+	height:40px;
+
+}
+
+#drawCircle{
+   width:44px;
+   height:40px;
+   background-image: url(circle.jpg)
+  
+}
+
+#drawEllips{
+	width:44px;
+   height:40px;
+   background-image: url(ellipse.jpg)
+}
+
+#drawSquare{
+   width:44px;
+   height:40px;
+   background-image: url(square.jpg)
+}
+
+#drawRect{
+	width:44px;
+   height:40px;
+   background-image: url(rect.jpg)
+}
+
+#changeMode_stroke{
+	 width:22px;
+   height:40px;
+   background-image: url(circle1.jpg)
+}
+#changeMode_fill{
+	 width:22px;
+   height:40px;
+   background-image: url(circle2.jpg)
+}
+#lineWidth{
+ -webkit-appearance:none;
+ background-color: black;
+  width: 910px;
+  height: 22px;
+  
+}
+#lineWidth::-webkit-slider-thumb{
+ -webkit-appearance: none;
+    width:20px;
+    height:20px;
+     border-radius:20px;
+    background-color: red;
+}
+#pipette{
+	width:44px;
+	height:40px;
+
+}
+#filling{
+	width:44px;
+	height:40px;
+
+}
+#pipette{
+	width:44px;
+   height:40px;
+   background-image: url(pipette.jpg)
+}
+#filling{
+width:44px;
+   height:40px;	
+   background-image: url(filling.jpg)
+}
+
