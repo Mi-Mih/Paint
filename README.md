@@ -1,2 +1,1 @@
-# JS
-PAINT's analog.
+# PAINT's analog.
