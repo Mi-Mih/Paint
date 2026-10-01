@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paint</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <table
+    id="table"
+    align="left"
+    bgcolor="black"
+    width="200"
+    height="632"
+    border="24"
+    cellspacing="0"
+    style="position: absolute; top: 40px; left: 70px;"
+  >
+    <tr align="center">
+      <td style="border: 1px solid black;">
+        <input id="default" type="button" value="Очистить всё" name="def" onclick="def();">
+      </td>
+    </tr>
+    <tr align="center">
+      <td style="border: 1px solid black;">
+        <input id="kist" type="button" title="Кисть" aria-label="Кисть" onclick="draw();">
+      </td>
+      <td style="border: 1px solid black;">
+        <input id="drawCircle" type="button" title="Окружность" aria-label="Окружность" onclick="drawCircle();">
+      </td>
+    </tr>
+    <tr align="center">
+      <td style="border: 1px solid black;">
+        <input id="delete" type="button" title="Ластик" aria-label="Ластик" onclick="eraser();">
+      </td>
+      <td style="border: 1px solid black;">
+        <input id="drawEllips" type="button" title="Эллипс" aria-label="Эллипс" onclick="drawEllips();">
+      </td>
+    </tr>
+    <tr align="center">
+      <td style="border: 1px solid black;">
+        <input id="changeMode_stroke" type="button" title="Контур" aria-label="Рисовать контур" onclick="changeMode_stroke();">
+        <input id="changeMode_fill" type="button" title="Заливка" aria-label="Рисовать с заливкой" onclick="changeMode_fill();">
+      </td>
+      <td style="border: 1px solid black;">
+        <input id="drawSquare" type="button" title="Квадрат" aria-label="Квадрат" onclick="drawSquare();">
+      </td>
+    </tr>
+    <tr align="center">
+      <td style="border: 1px solid black;">
+        <input id="color" type="color" aria-label="Цвет">
+      </td>
+      <td style="border: 1px solid black;">
+        <input id="drawRect" type="button" title="Прямоугольник" aria-label="Прямоугольник" onclick="drawRect();">
+        <br>
+        <input id="lindr" type="button" title="Ломаная линия" aria-label="Ломаная линия" onclick="linedraw();">
+      </td>
+    </tr>
+    <tr align="center">
+      <td style="border: 1px solid black;">
+        <input id="pipette" type="button" title="Пипетка" aria-label="Пипетка" onclick="pipette();">
+      </td>
+      <td style="border: 1px solid black;">
+        <input id="filling" type="button" title="Заливка области" aria-label="Заливка области" onclick="filling();">
+      </td>
+    </tr>
+    <tr align="center">
+      <td style="border: 1px solid black;">
+        <input id="save" type="button" value="Сохранить" name="save" onclick="saveImage();">
+      </td>
+    </tr>
+  </table>
+
+  <input
+    id="lineWidth"
+    type="range"
+    min="3"
+    max="60"
+    value="12"
+    aria-label="Толщина линии"
+    style="position: absolute; top: 648px; left: 268px;"
+  >
+  <canvas id="c1" width="900" height="600" style="position: absolute; top: 40px; left: 270px;"></canvas>
+</body>
+</html>

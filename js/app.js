@@ -10,9 +10,11 @@ var canvas      = document.getElementById('c1');
 var ctx         =       canvas.getContext('2d');
 var myColor     =                     '#000000';
 var R           =                             5;
-var defImg      =        new Image('holst.jpg');
+var defImg      =                    new Image();
 var flag                                       ; 
 var mode_flag                                  ; 
+
+defImg.src = 'assets/images/holst.jpg';
 
 
 

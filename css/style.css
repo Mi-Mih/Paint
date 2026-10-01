@@ -4,20 +4,20 @@
 	height: 600px;
 	border: 5px solid black;
    margin: 0px;
-   background-image: url(holst.jpg);
+	background-image: url('../assets/images/holst.jpg');
    
 }
 
 #delete{
 	width: 44px;
 	height: 40px;
-     background-image: url(eraser.jpg)
+     background-image: url('../assets/images/eraser.jpg');
 }
 
 #kist{
 	width:44px;
 	height:40px;
-	background-image: url(kist.jpg)
+	background-image: url('../assets/images/kist.jpg');
 }
 
 #color{
@@ -32,7 +32,7 @@
 #lindr{
    width:44px;
    height:40px;
-   background-image: url(Linia.jpg)
+   background-image: url('../assets/images/line.jpg');
 }
 
 #save{
@@ -44,37 +44,37 @@
 #drawCircle{
    width:44px;
    height:40px;
-   background-image: url(circle.jpg)
+   background-image: url('../assets/images/circle.jpg');
   
 }
 
 #drawEllips{
 	width:44px;
    height:40px;
-   background-image: url(ellipse.jpg)
+   background-image: url('../assets/images/ellipse.jpg');
 }
 
 #drawSquare{
    width:44px;
    height:40px;
-   background-image: url(square.jpg)
+   background-image: url('../assets/images/square.jpg');
 }
 
 #drawRect{
 	width:44px;
    height:40px;
-   background-image: url(rect.jpg)
+   background-image: url('../assets/images/rect.jpg');
 }
 
 #changeMode_stroke{
 	 width:22px;
    height:40px;
-   background-image: url(circle1.jpg)
+   background-image: url('../assets/images/circle1.jpg');
 }
 #changeMode_fill{
 	 width:22px;
    height:40px;
-   background-image: url(circle2.jpg)
+   background-image: url('../assets/images/circle2.jpg');
 }
 #lineWidth{
  -webkit-appearance:none;
@@ -103,11 +103,11 @@
 #pipette{
 	width:44px;
    height:40px;
-   background-image: url(pipette.jpg)
+   background-image: url('../assets/images/pipette.jpg');
 }
 #filling{
 width:44px;
    height:40px;	
-   background-image: url(filling.jpg)
+   background-image: url('../assets/images/filling.jpg');
 }
 
